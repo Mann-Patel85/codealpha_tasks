@@ -1,6 +1,22 @@
+# Virtual Environment
 venv/
+.venv/
+
+# Python Cache & Bytecode
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Exclude Internship Details Report
+INTERNSHIP_DETAILS.txt
+
+# Media & Temp Captures
 *.mp4
-*.csv
+Task4_ObjectDetection/captures/
+
+# Model Checkpoints (Optional / Large files)
 *.h5
+*.pt
+
+# Environment Variables
 .env
